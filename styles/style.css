@@ -1,0 +1,269 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	/* background-color:#e6e6fa;*/
+	
+}
+
+
+.container { 
+	margin:0;
+	padding:0;
+	/* background-color:#0000FF;*/
+	/*background-color:#e6e6fa;*/
+	background-color:white;
+	
+
+}
+
+#head_wrap {
+	width:100%;
+	height: 60px;
+	border-bottom:30px solid white;
+	padding:0;
+	background-color:#FF7D12;
+	
+	
+}
+
+#header {
+	margin:0 auto;
+	
+	padding:10px;
+}
+
+.logo img {
+	width: 200px;
+	height: 50px;
+}
+
+#privacy {
+    width: 700px;
+    margin-left: 300px;
+}
+
+#privacy p{
+    font-size: 12px;
+    font-family: tahoma;
+    color: gray;
+}
+
+#privacy h3{
+    font-size: 12px;
+    font-family: tahoma;
+    color: gray;
+}
+
+#terms_conditions {
+    width: 700px;
+    margin-left: 300px;
+}
+
+#terms_conditions ol{
+    margin-left: 20px;
+    font-size: 12px;
+    font-family: tahoma;
+    color: gray;
+}
+#terms_conditions ul{
+    margin-left: 20px;
+    font-size: 12px;
+    font-family: tahoma;
+    color: gray;
+}
+
+#terms_conditions h3{
+    font-size: 12px;
+    font-family: tahoma;
+    color: gray;
+}
+
+#form1 {
+    
+	float:right;
+
+	
+}
+
+#form1 a{
+    font-family: tahoma;
+	font-size: 12px;
+	color: white;
+	margin-left: 330px;
+
+	
+}
+
+#form1 input {
+	width: 150px;
+	font-family: tahoma;
+	padding: 5px;
+
+}
+
+
+#form1 button {
+	width: 50px;
+	height: 20px;
+	background-color: white;
+	font-family: tahoma;
+	font-weight: bolder;
+	padding-top: 0px;
+
+
+}
+
+#form1 button:hover {
+	background-color: #262626;
+	color: white;
+
+}
+
+
+
+
+div h2 {
+    color: #FF7D12;
+    font-family: tahoma;
+
+}
+
+#content {
+	width: 1000px;
+	
+	margin:0 auto;
+}
+
+.image img {
+	width: 500px;
+	height: 500px;
+	margin-left: -110px;
+	padding-bottom: 50px;
+}
+
+#form2 {
+	float: right;
+	margin-top: 10px;
+}
+
+#form2 input {
+	width: 250px;
+	
+	padding: 8px;
+	border: 1px solid #FF7D12;
+
+}
+
+#form2 h2 {
+	padding: 5px;
+	margin-left: 120px;
+}
+
+#form2 input:hover {
+	border: 1px solid gray;
+}
+
+#form3 {
+    margin: auto;
+	width: 510px;
+	height: 300px;
+	background: white;
+	padding: 10px;
+	line-height: 20px;
+	border: 1px solid #E5E5FF;
+
+}
+
+
+#form3 input {
+	width: 250px;
+	
+	padding: 8px;
+	border: 1px solid #FF7D12;
+
+}
+
+#form3 h2 {
+	padding: 5px;
+	margin-left: 120px;
+}
+
+#form3 input:hover {
+	border: 1px solid gray;
+}
+
+#form3 button {
+	width: 50px;
+	height: 20px;
+	background-color: white;
+	font-family: tahoma;
+	font-weight: bolder;
+	padding-top: 0px;
+	margin-left: 120px;
+
+
+}
+
+#form3 button:hover {
+	background-color: #262626;
+	color: white;
+
+}
+
+div p {
+    color: gray;
+    font-size: 10px;
+    font-family: tahoma;
+}
+
+
+input[type="submit"] {
+	background-color: #006fc4;
+	border: 1px solid #00508d;
+	font-size: 15px;
+	color: #ffffff;
+	padding: 5px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	border-radius: 7px;
+}
+input[type="submit"]:hover {
+	text-decoration: underline;
+}
+
+#footer {
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	background-color:#FF7D12;
+	border:5px solid white;
+	clear: both;
+	text-align: center;
+	float: bottom; 
+	margin-top: 30px;
+}
